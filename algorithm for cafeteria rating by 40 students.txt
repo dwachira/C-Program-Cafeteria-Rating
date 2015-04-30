@@ -1,0 +1,40 @@
+
+ /*************************************************************************
+ *                   Mureithi David Wachira                               *
+ *                   P15/2204/2011                                        *
+ *                                                                        *
+ *                   University of Nairobi                                *
+ *                   School of Computing & Informatics                    *
+ *                                                                        *
+ *                   Date: Thurday 28th February 2013                     *
+ *                                                                        *
+ *                   Fourty students were asked to rate the quality       *
+ *                   of food in the student cafeteria on a scale          *
+ *                   of 1 to 10(1 means awful and 10 means excellent)     *
+ *                   Place the 40 responses in an integer array and       *
+ *                   summarise and display  the results of the poll       *
+ *                                                                        *
+ *************************************************************************/
+ 
+ 
+		Algorithm
+	1. Get input of the 40 students rating the food in the cafeteria.
+	2. Create a 1 dimensional array indexed from 0 to 39 to hold the rating by each student in rspective order.
+	3. Calculate the average rating.
+	4. Create a 2 dimensional array to hold the ratings 1 to 10 with their respective frequencies.
+	5. Display the elements of the 1 dimensional array.
+	6. Display the average of the ratings that was earlier calculated.
+	7. Display the Mode (most common rating)
+	8. Display the 2-d array showing rating and how many students made the rating.
+	
+	
+		Variables needed:
+	1. students 				- To hold the number of students, which in this case is 40.
+	2. max_rating				- The maximum rating which in this case is 10.
+	3. cafeteria_rating_array		- 1 dimensional array to hold the rating i.e. cafeteria_rating_array[students][1];
+	4. students_counter			- A counter to be used in indexing the cafeteria_rating_array.
+	5. total_rating 			- The addition of all ratings to be used in calculation of the average rating.
+	6. frequency_array		 	- 2 dimensional array to hold the frequencies i.e. frequency_array[10][2]
+	7. frequency_counter			- A counter to be used in indexing the frequency_array.
+	8. frequency_count			- Used to count the frequencies of the ratings.
+		
